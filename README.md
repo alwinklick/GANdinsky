@@ -11,4 +11,4 @@ Images of Kandinsky are downloaded from Wikimedia Commons on a year-by-year basi
 
 The greatest obstacle to this kind of project is the image format: the GAN needs a uniform image size, that is width and height, whereas real paintings do come in a variaty of sizes and aspect ratios. There are two principle ways to address this problem: cropping and padding (you could also distort the image, but weare not going to do this!). With cropping, you crop the image to the desired format, thus losing a part of the image. With padding, you add a passpartout around the image to fit the desired format, thus increasing image size (and, therefore, computing time). We will apply padding for now. 
 
-All available images are brought in a uniform size of 1024 by 1024 pixels using a combination of bilinear interpolation and padding.
+All available images are brought in a uniform size of 1024 by 1024 pixels, 8-bit RGB images using a combination of bilinear interpolation and padding.
