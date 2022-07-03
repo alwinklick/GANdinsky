@@ -4,7 +4,7 @@ A Generative Adversarial Net to generate Paintings inspired by the work of Wassi
 ## Wassily Kandinsky
 Famous artist Wassily Kandinskys work can be divided in different phases. The early phase is in the tradition of impressionism/expressionism. Later, he developed a more and more abstract art style, for which he is most famous today, see https://en.wikipedia.org/wiki/Wassily_Kandinsky. There is a transitional phase in between. We are most intrested in his later work, so for now, we are only considering his work from 1919 onwards. 
 
-Kandinskys (nearly) full work is available at wikimedia commons (https://commons.wikimedia.org/wiki/Category:Wassily_Kandinsky). 
+Kandinskys (nearly) full work is available at wikimedia commons (https://commons.wikimedia.org/wiki/Category:Wassily_Kandinsky). However, manual curation is still needed due to duplicates etc. 
 
 ## Data preperation
 Images of Kandinsky are downloaded from Wikimedia Commons on a year-by-year basis. Thus, a start-year can be picked, to only include paintings from this year on. There seems to be a clear change in style between the years 1918 and 1919, so we will use 1919 as the starting year. 
