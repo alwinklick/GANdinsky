@@ -1,0 +1,34 @@
+#!/bin/bash
+
+
+for year in {1901..1944}
+do
+
+# test with 1901
+#year=1901
+
+#outfolder=Kandinsky/$year
+echo "downloading paintings for" $year
+mkdir $year
+#echo $outfolder
+
+category=$year"_paintings_by_Wassily_Kandinsky"
+
+#echo $category
+
+./commons-category-downloader $category
+
+mv *.jpg $year
+mv *.JPG $year
+mv *.jpeg $year
+mv *.JPEG $year
+mv *.png $year
+mv *.PNG $year
+mv *.tif $year
+mv *.gif $year
+
+
+echo "done"
+done
+echo All done
+
