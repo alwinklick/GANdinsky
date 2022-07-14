@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !data/
+!simpleGAN
 !simpleGAN/SimpleGAN.ipynb
 !simpleGAN/models/
 !simpleGAN/eval_script.ipynb
