@@ -18,4 +18,5 @@ as a first shot at the problem, a simple approach is used.
 
 ## Next steps
 * implement some form of image augmentation to reduce the risk of overfitting
+* bigger, better models
 * implement a styleGAN to produce better images
