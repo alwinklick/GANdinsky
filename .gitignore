@@ -1,11 +1,17 @@
-# ignore everything
-*
+# ignore raw data
+raw_data/
 
+# ignore ipynb checkpoints
+.ipynb_checkpoints/
+
+# ignore everything
+#*
+#
 # except these:
-!.gitignore
-!README.md
-!data/
-!simpleGAN
-!simpleGAN/SimpleGAN.ipynb
-!simpleGAN/models/
-!simpleGAN/eval_script.ipynb
+#!.gitignore
+#!README.md
+#!data/
+#!simpleGAN
+#!simpleGAN/SimpleGAN.ipynb
+#!simpleGAN/models
+#!simpleGAN/eval_script.ipynb
