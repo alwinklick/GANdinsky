@@ -1,0 +1,10 @@
+# ignore everything
+*
+
+# except these:
+!.gitignore
+!README.md
+!data/
+!simpleGAN/SimpleGAN.ipynb
+!simpleGAN/models/
+!simpleGAN/eval_script.ipynb
