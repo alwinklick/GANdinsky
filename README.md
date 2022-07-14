@@ -15,3 +15,7 @@ All available images are brought in a uniform size of 1024 by 1024 pixels, 8-bit
 
 ## Simple GAN
 as a first shot at the problem, a simple approach is used. 
+
+## Next steps
+* implement some form of image augmentation to reduce the risk of overfitting
+* implement a styleGAN to produce better images
